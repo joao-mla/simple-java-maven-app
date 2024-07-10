@@ -14,7 +14,6 @@ public class AppTest
         App app1 = new App();
         App app2 = new App();
         assertEquals(app1.getMessage(), app2.getMessage());
-        assertEquals(2, 3);
     }
 
     @Test
@@ -22,6 +21,5 @@ public class AppTest
     {
         App app = new App();
         assertEquals("Hello World!", app.getMessage());
-        assertEquals(2,3);
     }
 }
